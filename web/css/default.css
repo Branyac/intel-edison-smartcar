@@ -1,0 +1,9 @@
+.row {
+    margin: 0 auto;
+}
+
+button {
+    width: 10em;
+    height: 5em;
+    margin: 1em;
+}
