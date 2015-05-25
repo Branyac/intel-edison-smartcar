@@ -1,11 +1,26 @@
 {
-  "name": "DigitalWrite",
-  "description": "",
-  "version": "0.0.0",
-  "main": "main.js",
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "dependencies": {
-  }
+    "name": "intel-edison-smartcar",
+    "version": "1.1.0",
+    "description": "",
+    "author": "Sergio Monedero",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Branyac/intel-edison-smartcar.git"
+        }
+    ],
+    "licenses": [
+        {
+        "name": "Apache License 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+    "homepage": "http://thingsandcode.com",
+    "main": "main.js",
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "dependencies": {
+        "express": "4.10.1"
+    }
 }
